@@ -3,7 +3,7 @@ export default [
     name: "Waves & Stripes",
     sku: "AF01",
     id: 0,
-    price: "20 - $50,
+    price: 30,
     imageUrl: "http://images.craftsnherbs.com/crochet/afghan01.jpg",
     description: "Can be made in sizes baby - Queen.  You can chose the colors",
     shipping:
@@ -13,7 +13,7 @@ export default [
     name: "Gentle Waves",
     sku: "AF02",
     id: 1,
-    price: "20 - $50",
+    price: 30,
     imageUrl: "http://images.craftsnherbs.com/crochet/afghan04.jpg",
     description: "Soft waves in a mandela yarns make this afghan unique",
     shipping:
