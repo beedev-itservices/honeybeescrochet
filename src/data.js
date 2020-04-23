@@ -4,11 +4,12 @@ export default [
     alt: "More Images Soon!",
     sku: "AF01",
     id: 0,
-    price: 30,
+    price: 35,
     imageUrl: "http://images.craftsnherbs.com/crochet/afghan01.jpg",
     images01: "http://images.craftsnherbs.com/crochet/afghan04.jpg",
     images03: "http://images.craftsnherbs.com/crochet/afghan03.jpg",
-    description: "Can be made in sizes baby - Queen.  You can chose the colors",
+    description: "Can be made in sizes Baby - Queen.  You can chose the colors.",
+    description: "Prices vary per size.  On average $20 for a Baby blanket, $35 for Twin Size, and $50 for Queeen.
     shipping: "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
   },
   {
