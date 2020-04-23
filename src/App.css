@@ -14,6 +14,11 @@ body,
   width: 100%;
 }
 
+.altimgs {
+  padding: 5px;
+  width: 20%;
+}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -68,7 +73,7 @@ nav {
 }
 
 .home-image {
-  width: 100%;
+  width: 50%;
   max-height: 400px;
   object-fit: cover;
 }
@@ -76,6 +81,79 @@ nav {
 .shop-button.md-button {
   margin-top: -16px;
   width: 115px;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-header {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-header img {
+  width: 250px;
+  padding: 10px;
+}
+
+.about-owner {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 5px 25px;
+}
+
+.about-owner h2 {
+  align-self: flex-start;
+  color: #1a1a1a;
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-items li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #915c37;
+  width: 600px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.the-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.the-form label {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: row;
+}
+.the-form p {
+  padding: 0 5px;
 }
 
 .items-list-wrapper {
@@ -94,7 +172,7 @@ nav {
 }
 
 .item-card {
-  width: 250px;
+  width: 200px;
   margin: 0 10px 32px;
   display: flex;
   flex-direction: column;
@@ -110,7 +188,7 @@ nav {
 }
 
 .item-list-image {
-  width: 100%;
+  width: 95%;
   padding: 5px;
   background-color: #f5b76d;
   border: 1px solid #915c37;
@@ -165,6 +243,11 @@ nav {
   width: 50%;
   display: flex;
   justify-content: flex-start;
+}
+
+.image-wrapper img {
+  width: 350px;
+  padding: 5px;
 }
 
 .item-title-wrapper {

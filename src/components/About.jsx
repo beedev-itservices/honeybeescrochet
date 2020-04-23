@@ -16,7 +16,7 @@ function About(props) {
         <div className="about-owner">
           <p />
           <h2>About the Owner</h2>
-          <p>I'm HoneyBee, Greek for Melissa.</p>
+          <p>I'm HoneyBee, which is Greek for Melissa.</p>
           <p>I love making amazing things with yarn and a hook</p>
         </div>
       </div>

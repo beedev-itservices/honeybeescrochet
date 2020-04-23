@@ -11,16 +11,16 @@ function Contact(props) {
         <h1>Contacting HoneyBee's Crochet:</h1>
         <ul>
           <li>
-            <b>Email: </b>honeybee@honeybeescrochet.com
+            <b>Email: </b><a href="mailto:honeybee@honeybeescrochet.com">honeybee@honeybeescrochet.com</a>
           </li>
           <li>
-            <b>Chat: </b>
+            <b>Chat: </b><a href="https://tawk.to/chat/5c04089140105007f37aa009/default">Click to chat</a>
           </li>
           <li>
-            <b>Phone: </b>
+            <b>Phone: </b>570-221-9892
           </li>
           <li>
-            <b>Facebook: </b>
+            <b>Facebook: </b><a href="https://www.facebook.com/honeybeescrochet">Click for Facebook</a>
           </li>
         </ul>
       </div>
