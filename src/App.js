@@ -15,7 +15,7 @@ export default function App() {
     <div className="App">
       <nav>
         <div className="main-nav-header">
-          <img src="http://honeybeescrochet.com/images/logo.png" alt="" />
+          <img src="http://images.craftsnherbs.com/crochet/logo.png" alt="" />
           <h1 className="store-header">HoneyBee's Crochet</h1>
         </div>
         <div className="nav-links">

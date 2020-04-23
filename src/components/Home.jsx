@@ -12,7 +12,7 @@ function Home() {
     <div className="home-wrapper">
       <img
         className="home-image"
-        src="http://honeybeescrochet.com/images/shawl.JPG"
+        src="http://images.craftsnherbs.com/crochet/shawl.JPG"
         alt=""
       />
       <button className="md-button shop-button" onClick={routeToShop}>
