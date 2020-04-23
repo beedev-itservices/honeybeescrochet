@@ -18,7 +18,7 @@ export default [
     description: "Soft waves in a mandela yarns make this afghan unique",
     shipping:
       "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
-  }
+  },
   {
     name: "Little Animals",
     sku: "AML01",
