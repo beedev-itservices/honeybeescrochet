@@ -5,6 +5,8 @@ import "./../App.css";
 function Form(props) {
   const { push, goBack } = useHistory();
   console.log(props);
+  const handleSubmit = () => {
+  };
   return (
     <div className="form-wrapper">
       <button onClick={() => goBack()}>Go Back</button>
@@ -15,7 +17,7 @@ function Form(props) {
           <input type="text" />
         </label>
         <label>
-          <p>Full Name *: </p>
+          <p>Email *: </p>
           <input type="text" />
         </label>
         <label>
@@ -34,6 +36,7 @@ function Form(props) {
           <p>Anything Else?: </p>
           <input type="text" />
         </label>
+        <button onSubmit={() => handleSubmit()}>Submit!</button>
       </form>
       </div>
     </div>
