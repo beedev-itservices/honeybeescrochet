@@ -20,6 +20,7 @@ function Item(props) {
           <h4>${shopItem.price}</h4>
           <h4>Description:</h4>
           <p>{shopItem.description}</p>
+          <p>{shopItem.description01}</p>
           <button onClick={() => goBack()}>Back to Shop</button>
         </div>
       </div>
