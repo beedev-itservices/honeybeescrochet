@@ -6,8 +6,7 @@ export default [
     price: 30,
     imageUrl: "http://images.craftsnherbs.com/crochet/afghan01.jpg",
     description: "Can be made in sizes baby - Queen.  You can chose the colors",
-    shipping:
-      "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
+    shipping: "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
   },
   {
     name: "Gentle Waves",
@@ -16,8 +15,7 @@ export default [
     price: 30,
     imageUrl: "http://images.craftsnherbs.com/crochet/afghan04.jpg",
     description: "Soft waves in a mandela yarns make this afghan unique",
-    shipping:
-      "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
+    shipping: "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
   },
   {
     name: "Little Animals",
@@ -25,8 +23,17 @@ export default [
     id: 2,
     price: 10,
     imageUrl: "http://images.craftsnherbs.com/crochet/animal01.jpg",
-    description: "These little guys can fit into the palm of your hand.  Cute fun and full of personality.  You chose the animal, and colors",
-    shipping:       "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
+    description: "These little guys can fit into the palm of your hand.  Cute fun and full of personality.  You chose the animal, and colors.",
+    shipping: "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
 
+  },
+  {
+    name: "Medium Animals",
+    sku: "AML02",
+    id: 3,
+    price: 20,
+    imageUrl: "http://images.craftsnherbs.com/crochet/animal04.jpg",
+    description: "Now these guys aren't quite so small.  They love cuddles and love to bring smiles to your face.  Like their tiny counterparts they are full of personality.  You chose the animal, and colors.",
+    shipping: "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
   },
 ];
