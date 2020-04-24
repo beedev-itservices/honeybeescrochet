@@ -36,7 +36,7 @@ function Item(props) {
         <ItemShipping item={shopItem} />
       </Route>
       <Route path={`/the-shop/:itemID/images`}>
-        <img className="altimgs" src={shopItem.images01} alt={shopItem.alt} />
+        <img className="altimgs" src={shopItem.images01} alt="More Images Comming Soon" />
         <img className="altimgs" src={shopItem.images02} alt="" />
         <img className="altimgs" src={shopItem.images03} alt="" />
         <img className="altimgs" src={shopItem.images04} alt="" />

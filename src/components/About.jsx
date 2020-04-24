@@ -10,7 +10,7 @@ function About(props) {
       <div className="about-header">
         <img
           className="about-image"
-          src="http://images.craftsnherbs.com/crochet/melissa.png"
+          src="http://images.craftsnherbs.com/melissa.png"
           alt=""
         />
         <div className="about-owner">

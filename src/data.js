@@ -1,22 +1,32 @@
 export default [
   {
-    name: "Waves & Stripes Afghans",
-    alt: "More Images Soon!",
-    sku: "AF01",
+    name: "Masks",
+    sku: "COVID19",
     id: 0,
+    price: 0,
+    imageUrl: "http://images.craftsnherbs.com/crochet/masks02.jpg",
+    images01: "http://images.craftsnherbs.com/crochet/masks05.jpg",
+    images02: "http://images.craftsnherbs.com/crochet/masks04.jpg",
+    description: "During these uncertain times, and while many of us are required to wear masks, these masks are completely free for anyone local to the 18603 Zip Code.",
+    description01: "If you are not local to my Zip Code then all I ask is to cover the cost of shipping.  Any donations of materials or monetery are welcome but not required",
+    shipping: "As most of these are local there will be no shipping,  but if you are not local to the 18603 Zip Code we will discuss cost of shipping in our email corespondance."
+  },
+  {
+    name: "Waves & Stripes Afghans",
+    sku: "AF01",
+    id: 1,
     price: 35,
     imageUrl: "http://images.craftsnherbs.com/crochet/afghan01.jpg",
     images01: "http://images.craftsnherbs.com/crochet/afghan04.jpg",
     images03: "http://images.craftsnherbs.com/crochet/afghan03.jpg",
-    description: "Can be made in sizes Baby - Queen.  You can chose the colors.",
+    description: "Can be made in sizes Baby - Queen. Lots of colors you can chose.",
     description01: "On average $20 for a Baby blanket, $35 for Twin Size, and $50 for Queeen.",
     shipping: "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
   },
   {
     name: "Little Animals",
-    alt: "More Images Soon!",
     sku: "AML01",
-    id: 1,
+    id: 2,
     price: 10,
     imageUrl: "http://images.craftsnherbs.com/crochet/animal01.jpg",
     images01: "http://images.craftsnherbs.com/crochet/animal02.jpg",
@@ -27,9 +37,8 @@ export default [
   },
   {
     name: "Medium Animals",
-    alt: "More Images Soon!",
     sku: "AML02",
-    id: 2,
+    id: 3,
     price: 20,
     imageUrl: "http://images.craftsnherbs.com/crochet/animal04.jpg",
     images01: "http://images.craftsnherbs.com/crochet/animal07.jpg",
@@ -38,9 +47,8 @@ export default [
   },
   {
     name: "Fingerless Gloves",
-    alt: "More Images Soon!",
     sku: "ACCS01",
-    id: 3,
+    id: 4,
     price: 15,
     imageUrl: "http://images.craftsnherbs.com/crochet/gloves01.jpg",
     description: "Keep your hands warm and your fingers free to do some texting.  These fingerless gloves can be made in many sizes and colors.",
@@ -48,9 +56,8 @@ export default [
   },
   {
     name: "Hats",
-    alt: "More Images Soon!",
     sku: "ACCS02",
-    id: 4,
+    id: 5,
     price: 15,
     imageUrl: "http://images.craftsnherbs.com/crochet/hat01.jpg",
     description: "Keeping Noggins warm 1 hat at a time.  I have many styles I can make in just about any color and size.  Lets discuss the styles and colors to keep your heads warm.",
@@ -58,9 +65,8 @@ export default [
   },
   {
     name: "Hot Pads",
-    alt: "More Images Soon!",
     sku: "HOME01",
-    id: 5,
+    id: 6,
     price: 10,
     imageUrl: "http://images.craftsnherbs.com/crochet/home02.jpg",
     images01: "http://images.craftsnherbs.com/crochet/home01.jpg",
@@ -72,12 +78,23 @@ export default [
   },
   {
     name: "Rose's",
-    alt: "More Images Soon!",
     sku: "ACCS03",
-    id: 6,
+    id: 7,
     price: 10,
     imageUrl: "http://images.craftsnherbs.com/crochet/roses01.jpg",
     description: "A dozen roses for that special somone or just to chear yourself up.  Don't have to be just 1 color either.  Chose the color or colors.",
+    shipping: "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
+  },
+  {
+    name: "Shawls",
+    sku: "SH01",
+    id: 8,
+    price: 30,
+    imageUrl: "http://images.craftsnherbs.com/crochet/shawl03.jpg",
+    images01: "http://images.craftsnherbs.com/crochet/shawl04.jpg",
+    images02: "http://images.craftsnherbs.com/crochet/shawl05.jpg",
+    description: "Shawls of many colors and styles.  These can be made to fit youth or adults.",
+    description01: "Let me know what style you want, as well as the colors.",
     shipping: "All orders are made to order.  The time to make the product will depend on the size you order.  Once completed, it will be shipped."
   },
 ];
