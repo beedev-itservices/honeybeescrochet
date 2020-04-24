@@ -8,6 +8,7 @@ import Item from "./components/Item";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Form from "./components/Form";
+import Chat from "./chat.js";
 
 export default function App() {
   const [products, setProducts] = useState(data);
@@ -53,6 +54,7 @@ export default function App() {
         <h4>&copy; 2020 by BeeDev IT Services</h4>
         </div>
       </div>
+      <Chat />
     </div>
   );
 }
