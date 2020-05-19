@@ -1,14 +1,22 @@
-import React from "react";
-import { useParams, useRouteMatch, Route, NavLink, Link, useHistory } from "react-router-dom";
+import React, { useState } from "react";
+import { useParams, useRouteMatch, Route, NavLink, Link, useHistory }  from "react-router-dom";
 import ItemShipping from "./ItemShipping";
-import ItemDescription from "./ItemDescription";
+// import ItemDescription from "./ItemDescription";
 
 function Item(props) {
   const params = useParams();
-  const { push, goBack } = useHistory();
+  const { goBack } = useHistory();
   const { path, url } = useRouteMatch();
   console.log("url", url);
   const shopItem = props.items.find(item => item.id === Number(params.itemID));
+
+  const [cart, setCart] = useState([]);
+  const addToCart = (item) => {
+    setCart([...cart, item]);
+  };
+  
+
+
   return (
     <div className="item-wrapper">
       <div className="item-header">
@@ -22,6 +30,7 @@ function Item(props) {
           <p>{shopItem.description}</p>
           <p>{shopItem.description01}</p>
           <button onClick={() => goBack()}>Back to Shop</button>
+          <button className="order-button" onClick={(item) => this.props.addToCart()}>Add to cart</button>
         </div>
       </div>
       <nav className="item-sub-nav">

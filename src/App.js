@@ -7,7 +7,7 @@ import ItemsList from "./components/ItemsList";
 import Item from "./components/Item";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Form from "./components/Form";
+import ShoppingCart from "./components/ShoppingCart";
 
 export default function App() {
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -33,7 +33,7 @@ export default function App() {
           <Link to="/the-shop">Shop</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
-          <Link to="/the-form">Order Form</Link>
+          <Link to="/cart">Shopping Cart</Link>
         </div>
       </nav>
       <Switch>
@@ -49,8 +49,8 @@ export default function App() {
         <Route path="/contact">
           <Contact />
         </Route>
-        <Route path="/the-form">
-          <Form />
+        <Route path="/cart">
+          <ShoppingCart />
         </Route>
         <Route path="/" component={Home} />
       </Switch>

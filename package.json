@@ -1,11 +1,10 @@
 {
-  "name": "react",
+  "name": "honeybees-crochet",
   "homepage": "http://honeybeescrochet.com",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "Crochet website",
   "keywords": [
-    "react",
-    "starter"
+    
   ],
   "main": "src/index.js",
   "dependencies": {

@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useHistory } from "react-router-dom";
 
 function ItemsList(props) {
-  const { push, goBack } = useHistory();
+  const { goBack } = useHistory();
   console.log(props);
   return (
     <div className="items-list-wrapper">
