@@ -25,7 +25,7 @@ export default function App() {
     <div className="App">
       <nav>
         <div className="main-nav-header">
-          <img src="http://images.craftsnherbs.com/crochet/logo.png" alt="" />
+          <img src="https://images.craftsnherbs.com/crochet/logo.png" alt="" />
           <h1 className="store-header">HoneyBee's Crochet</h1>
         </div>
         <div className="nav-links">
@@ -59,7 +59,7 @@ export default function App() {
           <a href="mailto:webmaster@honeybeescrochet.com">Webmaster</a>
         </div>
         <div className="madeby">
-        <img src="http://images.craftsnherbs.com/beelogo.jpg" alt="" />
+        <img src="https://images.craftsnherbs.com/beelogo.jpg" alt="" />
         <h4>&copy; 2020 by BeeDev IT Services</h4>
         </div>
       </div>
