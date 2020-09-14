@@ -3,9 +3,7 @@
   "homepage": "http://honeybeescrochet.com",
   "version": "1.0.0",
   "description": "Crochet website",
-  "keywords": [
-    
-  ],
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
